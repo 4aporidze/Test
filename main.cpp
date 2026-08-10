@@ -1,4 +1,5 @@
 #include <QApplication>
+#include <QDebug>
 #include "warningdialog.h"
 
 int main(int argc, char *argv[])

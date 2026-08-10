@@ -140,13 +140,13 @@ void WarningDialog::setupUI()
     QHBoxLayout *buttonLayout = new QHBoxLayout();
     buttonLayout->addStretch();
     
-    m_declineButton = new QPushButton("Отклонить", this);
+    m_declineButton = new QPushButton("Отмена", this);
     m_declineButton->setMinimumWidth(120);
     connect(m_declineButton, &QPushButton::clicked, this, [this]() {
         reject();
     });
     
-    m_acceptButton = new QPushButton("Принять", this);
+    m_acceptButton = new QPushButton("Применить", this);
     m_acceptButton->setMinimumWidth(120);
     m_acceptButton->setDefault(true);
     connect(m_acceptButton, &QPushButton::clicked, this, [this]() {
