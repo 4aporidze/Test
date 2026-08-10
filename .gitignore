@@ -1,0 +1,40 @@
+```
+# Qt/MOC generated files
+*.moc
+*.moc.cpp
+*.ui.h
+*.qrc
+moc_*
+qrc_*
+
+# Build artifacts
+Makefile
+Makefile.Debug
+Makefile.Release
+*.pro.user
+*.pro.user.*
+debug/
+release/
+
+# Dependencies
+*.pri
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+```
