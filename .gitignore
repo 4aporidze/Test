@@ -1,1 +1,4 @@
-(empty)
+build/
+*.o
+*.so
+Makefile
