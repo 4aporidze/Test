@@ -1,16 +1,4 @@
-```
-# Compiled and build artifacts
+build/
 *.o
-*.obj
-*.pyc
-*.class
-*.exe
-*.dll
 *.so
-*.a
-*.out
-.qmake.stash
-WarningDialogApp
-main.o
-warningdialog.o
-```
+Makefile
